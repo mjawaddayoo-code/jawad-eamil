@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    /* background-color: black; */
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #111;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+.nav h1{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.nav-div{
+    height: 40px;
+    width: 100px;
+    border: yellow;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+   
+}
+.nav-div p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.email-section{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.Get{
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Learn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Seconds{
+    margin-top: 10px;
+    color: yellow;
+}
+.email-generater{
+    background-color: black;
+    border: 2px solid yellow;
+    height: 300px;
+    width: 600px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.email-generater h2{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.email-generater input{
+    height: 40px;
+    width: 500px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.email-generater button{
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    /* cursor: pointer; */
+    margin: 5px;
+    
+}
+.send-Eamil{
+    margin-top: 20px;
+    border: 2px solid yellow;
+    background-color: black;
+    height: 150px;
+    width: 600px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 40px;
+}
+.Heading{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Heading span{
+    color: yellow;
+}
